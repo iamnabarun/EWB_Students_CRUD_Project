@@ -97,23 +97,4 @@ Delete: `DELETE /students/1` (returns `204 No Content`).
 
 `student_id` (auto-generated primary key), `name`, `date_of_birth`, `email`, `phone`, `course`, `address`, `enrollment_date`, and `created_at`.
 
-## GitHub submission
 
-1. Create a new **public** GitHub repository (unless your trainer specifies otherwise).
-2. From this folder, run:
-
-   ```bash
-   git init
-   git add main.py requirements.txt README.md .gitignore
-   git commit -m "Build student CRUD API with FastAPI and SQLite"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-   git push -u origin main
-   ```
-3. Replace the example remote URL with your actual repository URL.
-4. Submit the repository link through the channel specified by your EWB trainer.
-
-## Notes
-
-- Do not commit real student information, credentials, or the generated database.
-- This is a small assignment-ready demo, not a production deployment. For production, add authentication/authorization, stronger email validation, migrations, structured logging, and automated tests.
